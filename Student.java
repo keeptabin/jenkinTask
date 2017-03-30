@@ -13,4 +13,9 @@ public class Student {
         if (attendance <= 90) return AttendanceGrade.GOOD;
         return AttendanceGrade.VERY_GOOD;
     }
+    
+public static void main(String[] args){
+Student student = new Student();
+student.getAttendanceGrade(32);
+}
 }
